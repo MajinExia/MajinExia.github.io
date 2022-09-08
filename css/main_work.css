@@ -193,6 +193,14 @@ body {
     left: 0;
 }
 
+.h2-sub{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0rem;
+}
+
 /* Project items */
 
 .featured-project{
@@ -201,7 +209,7 @@ body {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-#Featured_Project{
+#Featured_Project, #other_projects{
     max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
@@ -542,7 +550,7 @@ nav{
         display: none;
     } */
 
-    #Featured_Project h2{
+    #Featured_Project h2, #other_projects h2{
         font-size: 1.4rem;
     }
 
@@ -717,8 +725,13 @@ nav{
         display: block;
     }
 
-    #Featured_Project h2{
+    #Featured_Project h2, #other_projects h2{
         font-size: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    .h2-sub p{
+        font-size: 1rem;
     }
 
     .nav-grid-master {
@@ -821,7 +834,7 @@ nav{
 /* 1024 px  */
 @media (min-width: 64rem){
     
-    #Featured_Project h2{
+    #Featured_Project h2, #other_projects h2{
         font-size: 3rem;
     }
 
