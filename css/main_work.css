@@ -197,7 +197,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-style: italic;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #ECB365;
     margin-top: 0rem;
 }
 
@@ -232,6 +232,17 @@ body {
 .container.active{
     transform: translateX(0);
     opacity: 1;
+}
+
+.other-project video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-width: 50rem;
+    max-height: 30rem;
+    top: 0;
+    left: 0;
+    border-radius: 1rem;
 }
 
 #first-project{
@@ -512,6 +523,10 @@ nav{
     grid-template-columns: 4fr 1fr;
 }
 
+.other-project{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .nav-grid-text {
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -717,7 +732,7 @@ nav{
         display: block;
     }
 
-    .project-img img{
+    .project-img img, .other-project img{
         display: none;
     }
 
