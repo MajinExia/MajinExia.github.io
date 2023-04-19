@@ -281,6 +281,21 @@ body {
     border-radius: 1rem;
 }
 
+#iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+#iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .project-details{
     max-width: 50rem;
     margin: 1rem 3rem 2rem 1rem;
@@ -348,7 +363,7 @@ footer{
   
 .label-button:hover, .label-button:focus {
     color: #041C32;
-    box-shadow: inset 16rem 0 0 0 #ECB365;
+    box-shadow: inset 20rem 0 0 0 #ECB365;
 }
 
 /* Project Analysis */
