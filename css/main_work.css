@@ -407,10 +407,6 @@ footer{
     font-size: 1.25rem;
 }
 
-/* .col-1, .col-2{
-    border-right: solid 2px white;
-} */
-
 .project-banner{
     color: white;
     padding: 4rem 4rem 1rem 4rem;
@@ -446,12 +442,13 @@ footer{
 }
 
 .project-roles{
-    max-width: 25rem;
+    max-width: 30rem;
     text-align: center;
+    font-size: .9rem;
 }
 
-.project-roles{
-    font-size: .9rem;
+.role-details{
+    margin:.5rem;
 }
 
 .project-roles ul{
