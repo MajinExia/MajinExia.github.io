@@ -413,6 +413,10 @@ footer{
     background-color: #161616;
 }
 
+.project-banner .project-description{
+    padding: .5rem 0rem .5rem 0rem;
+}
+
 .more-project{
     color: white; 
     margin-top: 3rem;
@@ -748,7 +752,7 @@ nav{
         display: none;
     }
 
-    #ren-ayumi img, #color-theme img, #sketch-img img{
+    #ren-ayumi img, #color-theme img, #sketch-img img, #award img{
         display: block;
     }
 
