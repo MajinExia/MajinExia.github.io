@@ -577,10 +577,6 @@ nav{
         display: none;
     } 
 
-    /* .project-img img{
-        display: none;
-    } */
-
     #Featured_Project h2, #other_projects h2{
         font-size: 1.4rem;
     }
@@ -778,7 +774,7 @@ nav{
         display: none;
     }
 
-    #ren-ayumi img, #color-theme img, #sketch-img img, #award img{
+    #ren-ayumi img, #color-theme img, #sketch-img img, #award img, .single-img{
         display: block;
     }
 
