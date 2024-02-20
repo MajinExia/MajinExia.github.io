@@ -294,6 +294,10 @@ body {
     height: 100%;
 }
 
+#interactive-prototype iframe{
+    width: 100%;
+    height: 450px;
+}
 .project-details{
     max-width: 50rem;
     margin: 1rem 3rem 2rem 1rem;
