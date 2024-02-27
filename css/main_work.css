@@ -151,7 +151,20 @@ nav {
     margin:0;
     border-bottom: 0.1rem #323131 solid;
 }
+/* --------------------- */
+/* navbar transition */
+/* .pa-fixed-header {
+	background-color: #741111 !important;
+	-webkit-transition: background-color 1s ease-out;
+	-moz-transition: background-color 1s ease-out;
+	-o-transition: background-color 1s ease-out;
+	transition: background-color 1s ease-out;
+}
 
+.text-black{
+    color: #ffffff !important;
+} */
+/* ----------------------------- */
 .nav-item {
     margin: 0.2rem 0;
     margin-top: auto;
@@ -315,6 +328,8 @@ body {
 .featured-project{
     padding: 2rem;
     color: #FFFFFF;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
     transition: transform 0.5s, opacity 0.5s;
 }
 
@@ -343,34 +358,28 @@ body {
     opacity: 1;
 }
 
-#first-project{
-    background-color: #BB5036;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
+#rising-card {
+    background-color: #741111;
 }
 
-#second-project{
+#fureverhome-card {
+    background-color: #a13a20;
+}
+
+#summerfest-card {
     background-color: #371d5f;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
 }
 
-#third-project{
+#splitwise-card {
     background-color: #005f46;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
 }
 
-#fourth-project {
+#icebreaker-card {
     background-color: #BC4B4B;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
 }
 
-#fifth-project{
+#karamatsu-card{
     background-color: #b44f42;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
 }
 
 .project-img video{
@@ -490,6 +499,7 @@ footer{
 .role-type{
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.2rem;
+    font-weight: 700;
     color: #ECB365;
 }
 
@@ -536,8 +546,8 @@ footer{
 
 .project-banner{
     color: white;
-    padding: 4rem 4rem 1rem 4rem;
-    background-color: #161616;
+    padding: 4rem 4rem 2rem 4rem;
+    /* background-color: #161616; */
 }
 
 .project-banner .project-description{
@@ -569,7 +579,6 @@ footer{
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: white;
-    /* text-align: start; */
 }
 
 .project-roles{
@@ -907,7 +916,7 @@ span{
     }
     
     .project-banner{
-        padding: 4rem 4rem 1rem 4rem;
+        padding: 4rem 4rem 2rem 4rem;
     }
 
     .featured-project, .project-banner {
