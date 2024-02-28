@@ -547,7 +547,6 @@ footer{
 .project-banner{
     color: white;
     padding: 4rem 4rem 2rem 4rem;
-    /* background-color: #161616; */
 }
 
 .project-banner .project-description{
@@ -606,6 +605,10 @@ footer{
     padding-top: .5rem;
     font-size: .8rem;
     text-align: center;
+}
+
+#end-card img{
+    display: block;
 }
 
 /* Bio */
@@ -1038,7 +1041,7 @@ span{
     }
 
     .project-description{
-        max-width: 26rem;
+        max-width: 30rem;
     }       
 
     .main-banner{
