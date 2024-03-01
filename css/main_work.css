@@ -544,6 +544,11 @@ footer{
     font-weight: 300;
 }
 
+.project-quotes h5{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
 .project-banner{
     color: white;
     padding: 4rem 4rem 2rem 4rem;
