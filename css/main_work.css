@@ -560,6 +560,10 @@ footer{
     margin-bottom: .75rem;
 }
 
+.project-quotes{
+    padding: 1.5rem;
+}
+
 .project-quotes p{
     margin-top: 0.25rem;
     padding-top: 0;
@@ -837,6 +841,10 @@ span{
         font-size: 1.2rem;
     }
 
+    .project-quotes{
+        font-size: 1rem;
+    }
+
     .label-button{
         font-size: .8rem;
     }
@@ -990,6 +998,14 @@ span{
     #second-project .project-description{
         max-width: 18rem;
         margin-left: 4rem;
+    }
+
+    .project-quotes{
+        font-size: 1.4rem;
+    }
+
+    .project-quotes p{
+        font-size: 1.1rem;
     }
 
     .project-card-2c{
