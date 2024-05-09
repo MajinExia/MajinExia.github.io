@@ -536,6 +536,10 @@ footer{
     line-height: 1.6rem;
 }
 
+.project-analysis p{
+    margin: 2rem 0 2rem 0;
+}
+
 
 .project-analysis h2{
     text-align: start;
