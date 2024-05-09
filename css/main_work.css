@@ -8,114 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* font stuff */
-.fira-sans-thin {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .fira-sans-extralight {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .fira-sans-light {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .fira-sans-bold {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .fira-sans-black {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
 
   /* general html */
 img{
@@ -124,54 +16,61 @@ img{
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
     margin: 0;
-    background-color: #161616;
+    background-color: #080808;
 } 
+
+h1{
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+}
   
+h4{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h5{
+    font-family: 'Mulish', sans-serif;
+}
+
+p, ul, ol, a, figcaption{
+    font-family: 'Mulish', sans-serif;
+}
+
 main {
     margin: 1rem;
     padding: 1rem;  
 }
 
-h2{
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
+
 /* nav items and main banner */
 nav {
     z-index: 10;
     top: 0;
     width: 100%;
 
-    background-color: #161616;
+    background-color: #F5F8FD;
     padding: 1rem 4rem 1rem 4rem;
     margin:0;
     border-bottom: 0.1rem #323131 solid;
 }
-/* --------------------- */
-/* navbar transition */
-/* .pa-fixed-header {
-	background-color: #741111 !important;
-	-webkit-transition: background-color 1s ease-out;
-	-moz-transition: background-color 1s ease-out;
-	-o-transition: background-color 1s ease-out;
-	transition: background-color 1s ease-out;
-}
 
-.text-black{
-    color: #ffffff !important;
-} */
-/* ----------------------------- */
 .nav-item {
     margin: 0.2rem 0;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: rgb(36, 36, 36);;
     border-radius: .25rem;
     padding: .25rem;
 }
@@ -274,16 +173,22 @@ img.nav-item {
 /* ------------------------------------ */
 
 .main-banner{
-    background-color: #161616;
     padding:  7rem;
 }
 
 .main-banner h1{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    font-size: 6rem;
-    text-align: center;
-    color: rgb(255, 255, 255);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: rgb(36, 36, 36);
+    max-width: 60rem;
+}
+
+.main-banner h4{
+    margin-top: 10rem;
+}
+#hero-video video{
+    object-fit: contain;
 }
 
 .text-box{
@@ -300,32 +205,16 @@ img.nav-item {
     border-radius: .5rem;
     max-width: 80rem;
 }
-/* main banner random img section */
+
 #banner-text{
     text-decoration: underline ;
-}
-
-#img-container{
-    display: none;
-}
-
-.random-imgs{
-    position:relative;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.random-imgs img, .random-imgs video{
-    position: absolute;
-    border-radius: 1rem;
-    max-width: 13rem;
-    height: auto;
-    transition: all 0.3s ease;
-    transform: translate(var(--x-position), var(--y-position)) scale(0.75);
+    color: #242424;
 }
 
 body {
   margin: 0;
+  color: #242424;
+  background-color: #f8f8f8;
 }
 
 .main-banner video, .random-imgs-video {
@@ -337,70 +226,42 @@ body {
 
 
 .h2-sub{
-    font-family: 'Noto Sans', sans-serif;
     font-style: italic;
     text-align: center;
     color: #ECB365;
     margin-top: 0rem;
 }
 
+.separating-line{
+    border-bottom: 1.25px solid #41797C;
+}
+
 /* Project items */
 
 .featured-project{
     padding: 2rem;
-    color: #FFFFFF;
+    color: #000000;
     border-radius: 2rem;
-    margin-bottom: 2rem;
     transition: transform 0.5s, opacity 0.5s;
-}
-
-#Featured_Project{
-    max-width: 80rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .container{
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.container.left{
-    transform: translateX(-10vw);
+.container.up{
+    transform: translateY(-10vw);
     opacity: 0;
 }
 
-.container.right{
-    transform: translateX(10vh);
+.container.down{
+    transform: translateY(10vh);
     opacity: 0;
 }
 
 .container.active{
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
-}
-
-#rising-card {
-    background-color: #741111;
-}
-
-#fureverhome-card {
-    background-color: #a13a20;
-}
-
-#summerfest-card {
-    background-color: #371d5f;
-}
-
-#splitwise-card {
-    background-color: #005f46;
-}
-
-#icebreaker-card {
-    background-color: #BC4B4B;
-}
-
-#karamatsu-card{
-    background-color: #b44f42;
 }
 
 .project-img video{
@@ -445,7 +306,7 @@ body {
 }
 
 .project-description{
-    padding: .5rem 0rem 1.5rem 0rem;
+    padding: .25rem 0rem 1.25rem 0rem;
     max-width: 30rem;
 }
 
@@ -453,10 +314,13 @@ body {
     font-size: .9rem;
 }  
 
+.right-align-text{
+    text-align: end;
+}
+
 /* Footer styling */
 
 footer{
-    text-align: center;
     color: white;
     background-color:#161616;
     padding: 3rem 4rem;
@@ -470,7 +334,7 @@ footer{
 }
 
 .in-text-link{
-    color: white;
+    color: rgb(36, 36, 36);
     transition: .6s all ease-in-out;
     border-radius: .2rem;
 }
@@ -491,13 +355,12 @@ footer{
 .label-button {
     text-align: center;
     display: inline;
-    color: #FFFFFF;
-    background: #108b8f;
+    color: #000000;
     padding: .7rem .7rem;
     transition: 0.5s all ease-in-out;
     font-size: 1rem;
+    border: solid 1px #000000;
     border-radius: 0.5rem;
-    border: none;
     margin-top: .5rem;
     margin-bottom: 0.5rem;
     text-decoration: none;
@@ -519,7 +382,6 @@ footer{
 }
 
 .role-type{
-    font-family: 'Fira Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     color: #ECB365;
@@ -543,7 +405,6 @@ footer{
 
 .project-analysis h2{
     text-align: start;
-    font-family: 'Fira Sans', sans-serif;
     font-weight: 800;
     font-size: 2.5rem;
     margin-top: 2rem;
@@ -558,7 +419,6 @@ footer{
 }
 
 .project-analysis h4{
-    font-family: 'Fira Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
     margin-bottom: .75rem;
@@ -606,17 +466,13 @@ footer{
 
 .more-project h3{   
     color: #ECB365; 
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1.8rem;
     text-align: center;
 }
 
 .project-details h3 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 600;
 }
 
 .project-roles{
@@ -673,7 +529,6 @@ footer{
 
 .about-bio h1{
     color: #ECB365;
-    font-family: 'Fira Sans', sans-serif;
     font-size: 2rem;
     text-align: left;
 }
@@ -892,7 +747,7 @@ span{
 @media (min-width: 37.5rem){
 
     .project-type{
-        font-size: .9rem;
+        font-size: .75rem;
     }
 
     .project-details h3{
@@ -908,7 +763,8 @@ span{
     }
 
     .featured-project .project-description{
-        font-size: 1rem;
+        font-size: .9rem;
+        margin: 0;
     }
 
     .featured-project{
@@ -916,7 +772,7 @@ span{
     }
 
     .label-button{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .text-box{
         max-width: 40rem;
@@ -930,7 +786,7 @@ span{
         display: block;
     }
 
-    .project-img img{
+    .project-img img, .right-banner img{
         display: none;
     }
 
@@ -982,7 +838,7 @@ span{
 
     .main-banner h1{
         font-size: 3rem;
-        margin-bottom: 5rem;
+        margin-bottom: 1.5rem;
     }
 
     .main-banner{
@@ -1032,7 +888,7 @@ span{
     }
 
     .project-card-2c .project-description{
-        padding: 0 0 1rem 0;
+        padding: 0 0 1.25rem 0;
     }
 
     .about-img img{
@@ -1057,9 +913,10 @@ span{
 
 /* 1024 px  */
 @media (min-width: 64rem){
-    
+
     #Featured_Project h2{
-        font-size: 3rem;
+        font-size: .75rem;
+        font-weight: 400;
     }
 
     .text-box{
@@ -1087,16 +944,12 @@ span{
     }
     
     .main-banner h1{
-        font-size: 8rem;
+        font-size: 2.15rem;
     }
 
     .project-description{
-        max-width: 28rem;
+        max-width: 30rem;
     }       
-
-    .main-banner{
-        padding: 11rem;
-    }
 
     #second-project p{
         max-width: 26rem;
@@ -1125,4 +978,11 @@ span{
         grid-template-columns: 1fr 1fr;
     }
 
+    .main-banner-2c{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .two-col-project-grid, .selected-works{
+        grid-template-columns: 1fr 1fr;
+    }
 }

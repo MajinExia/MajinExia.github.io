@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
     <title>Home | Luke Do</title>
 
@@ -29,69 +29,40 @@
             </div>
 
         </nav>
-        <section class="main-banner">
-            <div class="img-container">
-                <div id="img-container">
-                    <div class="random-imgs" id="img-test">
-                        <img alt="Fraser Health Digital Asset" class="lazy js-off reveal-text" src="img\otherProjects\FH_100.jpg"
-                        data-src="img\otherProjects\FH_300.jpg"
-                        data-srcset="img\otherProjects\FH_300.jpg 300w"
-                        data-sizes="100w" width="300">
-                        <img alt="Brian Jessel Project Physical Prototype" class="lazy js-off reveal-text" src="img\otherProjects\BJ_100.jpg"
-                        data-src="img\otherProjects\BJ_300.jpg"
-                        data-srcset="img\otherProjects\BJ_300.jpg 400w"
-                        data-sizes="100w" width="300">
-                        <img alt="SFU Anime Poster Ren" class="lazy js-off reveal-text" src="img\otherProjects\SADtoberA_100.png"
-                        data-src="img\otherProjects\SADtoberA_400.png"
-                        data-srcset="img\otherProjects\SADtoberA_400.png 400w"
-                        data-sizes="100w" width="400">
-                        <img alt="SFU Anime Poster Ayumi" class="lazy js-off reveal-text" src="img\otherProjects\SADtoberR_100.png"
-                        data-src="img\otherProjects\SADtoberR_400.png"
-                        data-srcset="img\otherProjects\SADtoberR_400.png 400w"
-                        data-sizes="100w" width="400">
-                        <img alt="Brian Jessel Project Digital Mock up" class="lazy js-off reveal-text" src="img\otherProjects\BJMockUp_100.jpg"
-                        data-src="img\otherProjects\BJMockUp_300.jpg"
-                        data-srcset="img\otherProjects\BJMockUp_300.jpg 300w"
-                        data-sizes="100w" width="300">
-                        <img alt="Photography sample" class="lazy js-off reveal-text" src="img\otherProjects\Insta_100.jpg"
-                        data-src="img\otherProjects\Insta_300.jpg"
-                        data-srcset="img\otherProjects\Insta_300.jpg 300w"
-                        data-sizes="100w" width="300">
-                        <img alt="Pew (my cat :D)" class="lazy js-off reveal-text" src="img\otherProjects\pew_100.jpg"
-                        data-src="img\otherProjects\pew_300.jpg"
-                        data-srcset="img\otherProjects\pew_300.jpg 300w"
-                        data-sizes="100w" width="300">
-                        <img alt="FurEverHome Teaser" class="lazy js-off reveal-text" src="img\fureverhome\FureverhomeTeaser_100.jpg"
-                        data-src="img\fureverhome\FureverhomeTeaser_400.jpg"
-                        data-srcset="img\fureverhome\FureverhomeTeaser_400.jpg 400w"
-                        data-sizes="100w" width="400">
-                        <video class="lazy js-off reveal-text" src="img/summerfest/poster_reveal.webm" autoplay loop playsinline muted aria-label="SFU Summer Festival's 10th Anniversary Teaser"></video> 
-                        <video class="lazy js-off reveal-text" src="img\otherProjects\KAFU.webm" autoplay loop playsinline muted aria-label="KAFU Motion Graphic"></video> 
-                    </div>
-                </div>
-                <h1 class="reveal-text">Hello, I'm <a class="in-text-link" id="banner-text">Luke.</a></h1>
-                <p class="text-box">A Product and UI/UX Designer based in Vancouver, BC - Currently with <a href="https://sfusummerfestival.com/" class="in-text-link" target="_blank">SFU Summer Festival</a> and <a href="https://www.facebook.com/anitrendzplus" class="in-text-link" target="_blank">Anime Trending+</a>. With previous experience at <a href="https://www.fraserhealth.ca/" class="in-text-link" target="_blank">Fraser Health</a></p>
-                </div>
+        <section class="grid main-banner main-banner-2c add-gutters">
+            <!-- left -->
+            <div class="left-banner">
+                <h4>Hi there,</h4>
+                <h1 class="reveal-text">Luke is a product designer who brings static images to life, enhancing people's daily experiences, <a href="about.html" class="in-text-link" id="banner-text"> by day.</a></h1>
+                <p>Currently @AnimeTrending+</p>
+                <p>Previously @Fraser Health and @SFU Summer Festival</p>
+                <p>Based in Vancouver, BC</p>
+            </div>
+            <!-- right -->
+            <div class="right-banner" id="hero-video">
+                <!-- place holder for video showcase -->
+                <figure>
+                    <video class="lazy js-off" width="1920" height="1080" data-src="img\otherProjects\KAFU.webm" src="img/summerfest/SummerFest_100.jpg" autoplay loop playsinline muted aria-label="SFU Summer Festival's 10th Anniversary Teaser Thumbnail">
+                    </video>
+                </figure> 
+            </div>
         </section> 
     </header>
 
     <main>
         <section id="Featured_Project">
-            <h2>Featured Projects</h2>
-            <p class="h2-sub">projects that I have enjoyed working on the most so far!!</p>
-            <!-- First Project -->               
-            <div class="scroll-reveal container left active">
+            <div class="grid selected-works">
+                <h2>SELECTED WORKS</h2>
+                <h2 class="right-align-text">SELECTED WORKS</h2>
+            </div>
+            <div class="separating-line"></div>
+
+            <!-- First Row -->               
+            <div class="scroll-reveal container down active">
                 <div class="grid featured-project" id="rising-card">
                     <!-- left side -->
                     <div class="project-details project-item">
-                        <p class="project-type">Experience Design - UX Research - UI/UX Design</p>
-                        <h3>88rising Experience Design</h3>
-                        <p class="project-description">Reimagining 88rising’s website experience to assist fans in discovering and supporting lesser-known artists.</p> 
-                        <a href="88rising.html" class="label-button">View Project</a>
-                    </div>
-                    <!-- right side -->
-                    <div class="project-img project-item static-img">
-                        <figure>
+                        <a href="88rising.html">
                             <img alt="88rising Banner image" class="lazy js-off" src="img\88rising\88risingMockUp_100.jpg"
                             data-src="img\88rising\88risingMockUp_400.jpg"
                             data-srcset="img\88rising\88risingMockUp_400.jpg 400w,
@@ -106,24 +77,17 @@
                                 sizes="(min-width: 74rem) 50vw, 100vw"
                                 >
                             </noscript>
-                        </figure> 
-                    </div>
-                </div>
-            </div>
-
-            <!-- Second Project -->     
-            <div class="scroll-reveal container right active">
-                <div class="grid featured-project" id="fureverhome-card">
-                    <!-- left side -->
-                    <div class="project-details project-item">
-                        <p class="project-type">UI/UX Design - UX Research - Prototyping</p>
-                        <h3>FurEverHome</h3>
-                        <p class="project-description">A Senior UI/UX Project in developing a fictional mobile application dedicated to support new and current rescued dog owners.</p> 
-                        <a href="fureverhome.html" class="label-button">View Project</a>
+                        </a>
+                        <div class=" grid two-col-project-grid">
+                            <h3>88rising</h3>
+                            <p class="project-type right-align-text">EXPERIENCE DESIGN. UX. UI</p>
+                        </div>
+                        <p class="project-description">A reimagined digital experience to assist fans in discovering and supporting emerging artists.</p> 
+                        <a href="88rising.html" class="label-button">View Project →</a>
                     </div>
                     <!-- right side -->
-                    <div class="project-img project-item static-img">
-                        <figure>
+                    <div class="project-details project-item">
+                        <a href="88rising.html">
                             <img alt="FurEverHome Banner image" class="lazy js-off" src="img\fureverhome\FureverhomeBanner_100.jpg"
                             data-src="img\fureverhome\FureverhomeBanner_400.jpg"
                             data-srcset="img\fureverhome\FureverhomeBanner_400.jpg 400w,
@@ -138,121 +102,158 @@
                                 sizes="(min-width: 74rem) 50vw, 100vw"
                                 >
                             </noscript>
-                        </figure> 
+                        </a>
+                        <div class=" grid two-col-project-grid">
+                            <h3>FurEverHome</h3>
+                            <p class="project-type right-align-text">UX. UI. PROTOTYPING</p>
+                        </div>
+                        <p class="project-description">A fictional mobile application dedicated to supporting new and current rescued dog owners.</p> 
+                        <a href="fureverhome.html" class="label-button">View Project →</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Third Project -->
-            <div class="scroll-reveal container left active">
-                <div class="grid featured-project" id="summerfest-card">
-
-                    
-                    <div class="project-img">
-                        <figure>
-                            <video class="lazy js-off" width="1920" height="1080" data-src="img/summerfest/poster_reveal.webm" src="img/summerfest/SummerFest_100.jpg" autoplay loop playsinline muted aria-label="SFU Summer Festival's 10th Anniversary Teaser Thumbnail">
-                            </video>
-                            <img alt="SFU Summer Festival's 10th Anniversary Teaser Thumbnail" class="lazy js-off" src="img/summerfest/SummerFest_100.jpg"
-                            data-src="img/summerfest/SummerFest_400.jpg"
-                            data-srcset="img/summerfest/SummerFest_400.jpg 400w,
-                                         img/summerfest/SummerFest_600.jpg 600w"
-                            data-sizes="100w">
-
-                            <noscript>
-                                <video src="img/summerfest/poster_reveal.webm" autoplay loop playsinline muted aria-label="SFU Summer Festival's 10th Anniversary Teaser Thumbnail"></video> 
-                            
-                                <img src="img/summerfest/SummerFest_400.jpg" alt="SFU Summer Festival's 10th Anniversary Teaser Thumbnail"
-                                srcset="img/summerfest/SummerFest_400.jpg 400w,
-                                        img/summerfest/SummerFest_600.jpg 600w" 
-                                sizes="(min-width: 60rem) 50vw, 100vw"
-                                >
-                            </noscript>
-                        </figure> 
-                    </div>
-
-                    <div class="project-details">
-                        <p class="project-type">Motion Design - Graphic Design - Social Media - Photography</p>
-                        <h3>The SFU Summer Festival</h3>
-                        <p class="project-description">A multimedia voluntary project for The SFU Summer Festival annual convention.</p>
-                        <a href="summerfest.html" class="label-button">View Project</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Fourth Project -->
-            <div class="scroll-reveal container right active">
-                <div class="grid featured-project" id="splitwise-card">
-
-                    <div class="project-details project-item ">
-                        <p class="project-type">UI/UX Design - UX Research - Prototyping</p>
-                        <h3>Splitwise Feature Design</h3>
-                        <p class="project-description">A Senior UI/UX feature design project for the expense splitting mobile application Splitwise.</p>
-                        
-                        <a href="Splitwise.html" class="label-button">View Project</a>
-                    </div>
-                    
-                    <div class="project-img static-img project-item ">
-                        <figure>
-                            <img alt="Splitiwse Banner image" class="lazy js-off" src="img/Splitwise/Splitwise_banner_100.png"
-                            data-src="img/Splitwise/Splitwise_banner_400.png"
-                            data-srcset="img/Splitwise/Splitwise_banner_400.png 400w,
-                                         img/Splitwise/Splitwise_banner_800.png 800w,
-                                         img/Splitwise/Splitwise_banner_1080.png 1080w"
-                            data-sizes="100w">
-                            <noscript>
-                                <img src="img/Splitwise/Splitwise_banner_400.png" alt="Splitiwse Banner image"
-                                srcset="img/Splitwise/Splitwise_banner_400.png 400w,
-                                        img/Splitwise/Splitwise_banner_800.png 800w,
-                                        img/Splitwise/Splitwise_banner_1080.png 1080w" 
-                                sizes="(min-width: 74rem) 50vw, 100vw"
-                                >
-                            </noscript>
-                        </figure> 
-                    </div>
-
-                </div>
-            </div>
-            <!-- Fifth Project-->
-            <div class="scroll-reveal container left active">
-                <div class="grid featured-project" id="icebreaker-card">
+            <!-- Second Row -->     
+            <div class="scroll-reveal container down active">
+                <div class="grid featured-project" id="rising-card">
                     <!-- left side -->
-
-                    <div class="project-img">
-                        <figure>
-                            <video class="lazy js-off" width="1920" height="1080" data-src="img/2021_Icebreaker/Spring2021.webm" src="img/2021_Icebreaker/Spring2021_fallback_100.jpg" autoplay loop playsinline muted aria-label="SFU Anime's Spring 2021 Icebreaker Trailer Thumbnail"></video>
-                            <img alt="SFU Anime's Spring 2021 Icebreaker Trailer Thumbnail"class="lazy js-off" src="img/2021_Icebreaker/Spring2021_fallback_100.jpg"
-                            data-src="img/2021_Icebreaker/Spring2021_fallback_400.jpg"
-                            data-srcset="img/2021_Icebreaker/Spring2021_fallback_400.jpg 400w,
-                                        img/2021_Icebreaker/Spring2021_fallback_600.jpg 600w"
-                            data-sizes="100w">
-
-                            <noscript>  
-                                <video src="img/2021_Icebreaker/Spring2021.webm" autoplay loop playsinline muted width="1920" height="1080" aria-label="SFU Anime's Spring 2021 Icebreaker Trailer Thumbnail"></video> 
-                                    <img src="img/2021_Icebreaker/Spring2021_fallback_400.jpg" alt="SFU Anime's Spring 2021 Icebreaker Trailer Thumbnail"
-                                    srcset="img/2021_Icebreaker/Spring2021_fallback_400.jpg 400w,
-                                            img/2021_Icebreaker/Spring2021_fallback_600.jpg 600w" 
-                                    sizes="(min-width: 60rem) 50vw, 100vw">
-                            </noscript>
-                        </figure> 
+                    <div class="project-details project-item">
+                        <a href="88rising.html">
+                            <div class="project-img">
+                                <figure>
+                                    <video class="lazy js-off" width="1920" height="1080" data-src="img/summerfest/poster_reveal.webm" src="img/summerfest/SummerFest_100.jpg" autoplay loop playsinline muted aria-label="SFU Summer Festival's 10th Anniversary Teaser Thumbnail">
+                                    </video>
+                                    <img alt="SFU Summer Festival's 10th Anniversary Teaser Thumbnail" class="lazy js-off" src="img/summerfest/SummerFest_100.jpg"
+                                    data-src="img/summerfest/SummerFest_400.jpg"
+                                    data-srcset="img/summerfest/SummerFest_400.jpg 400w,
+                                                 img/summerfest/SummerFest_600.jpg 600w"
+                                    data-sizes="100w">
+        
+                                    <noscript>
+                                        <video src="img/summerfest/poster_reveal.webm" autoplay loop playsinline muted aria-label="SFU Summer Festival's 10th Anniversary Teaser Thumbnail"></video> 
+                                    
+                                        <img src="img/summerfest/SummerFest_400.jpg" alt="SFU Summer Festival's 10th Anniversary Teaser Thumbnail"
+                                        srcset="img/summerfest/SummerFest_400.jpg 400w,
+                                                img/summerfest/SummerFest_600.jpg 600w" 
+                                        sizes="(min-width: 60rem) 50vw, 100vw"
+                                        >
+                                    </noscript>
+                                </figure> 
+                            </div>
+                        </a>
+                        <div class=" grid two-col-project-grid">
+                            <h3>The SFU Summer Festival</h3>
+                            <p class="project-type right-align-text">MOTION/GRAPHIC DESIGN. SOCIAL MEDIA</p>
+                        </div>
+                        <p class="project-description">A multimedia voluntary project for The SFU Summer Festival annual convention.</p> 
+                        <a href="88rising.html" class="label-button">View Project →</a>
                     </div>
-
                     <!-- right side -->
-                    <div class="project-details">
-                        <p class="project-type">Motion Design - Character Animation - Story Boarding</p>
-                        <h3>SFU Anime Icebreaker</h3>
-                        <p class="project-description">A Motion Graphic animation for the <a href="https://www.instagram.com/sfuanime/" class="in-text-link" target="_blank"> SFU Anime Club's</a> seasonal Club's Day event on social media.</p> 
-                        <a href="icebreaker.html" class="label-button">View Project</a>
+                    <div class="project-details project-item">
+                        <a href="88rising.html">
+                            <div class="project-img static-img project-item ">
+                                <figure>
+                                    <img alt="Splitiwse Banner image" class="lazy js-off" src="img/Splitwise/Splitwise_banner_100.png"
+                                    data-src="img/Splitwise/Splitwise_banner_400.png"
+                                    data-srcset="img/Splitwise/Splitwise_banner_400.png 400w,
+                                                 img/Splitwise/Splitwise_banner_800.png 800w,
+                                                 img/Splitwise/Splitwise_banner_1080.png 1080w"
+                                    data-sizes="100w">
+                                    <noscript>
+                                        <img src="img/Splitwise/Splitwise_banner_400.png" alt="Splitiwse Banner image"
+                                        srcset="img/Splitwise/Splitwise_banner_400.png 400w,
+                                                img/Splitwise/Splitwise_banner_800.png 800w,
+                                                img/Splitwise/Splitwise_banner_1080.png 1080w" 
+                                        sizes="(min-width: 74rem) 50vw, 100vw"
+                                        >
+                                    </noscript>
+                                </figure> 
+                            </div>
+                        </a>
+                        <div class=" grid two-col-project-grid">
+                            <h3>Splitwise</h3>
+                            <p class="project-type right-align-text">UX. UI. PROTOTYPING</p>
+                        </div>
+                        <p class="project-description">A Senior UI/UX feature design project for the expense splitting mobile application Splitwise.</p> 
+                        <a href="fureverhome.html" class="label-button">View Project →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Row -->
+            <div class="scroll-reveal container down active">
+                <div class="grid featured-project" id="rising-card">
+                    <!-- left side -->
+                    <div class="project-details project-item">
+                        <a href="88rising.html">
+                            <div class="project-img">
+                                <figure>
+                                    <video class="lazy js-off" width="1920" height="1080" data-src="img/2021_Icebreaker/Spring2021.webm" src="img/2021_Icebreaker/Spring2021_fallback_100.jpg" autoplay loop playsinline muted aria-label="SFU Anime's Spring 2021 Icebreaker Trailer Thumbnail"></video>
+                                    <img alt="SFU Anime's Spring 2021 Icebreaker Trailer Thumbnail"class="lazy js-off" src="img/2021_Icebreaker/Spring2021_fallback_100.jpg"
+                                    data-src="img/2021_Icebreaker/Spring2021_fallback_400.jpg"
+                                    data-srcset="img/2021_Icebreaker/Spring2021_fallback_400.jpg 400w,
+                                                img/2021_Icebreaker/Spring2021_fallback_600.jpg 600w"
+                                    data-sizes="100w">
+        
+                                    <noscript>  
+                                        <video src="img/2021_Icebreaker/Spring2021.webm" autoplay loop playsinline muted width="1920" height="1080" aria-label="SFU Anime's Spring 2021 Icebreaker Trailer Thumbnail"></video> 
+                                            <img src="img/2021_Icebreaker/Spring2021_fallback_400.jpg" alt="SFU Anime's Spring 2021 Icebreaker Trailer Thumbnail"
+                                            srcset="img/2021_Icebreaker/Spring2021_fallback_400.jpg 400w,
+                                                    img/2021_Icebreaker/Spring2021_fallback_600.jpg 600w" 
+                                            sizes="(min-width: 60rem) 50vw, 100vw">
+                                    </noscript>
+                                </figure> 
+                            </div>
+                        </a>
+                        <div class=" grid two-col-project-grid">
+                            <h3>SFU Anime Icebreaker</h3>
+                            <p class="project-type right-align-text">MOTION DESIGN. CHARACTER ANIMATION</p>
+                        </div>
+                        <p class="project-description">Creating a motion Ggaphic for the SFU Anime Club's seasonal Club's Day event on social media.</p> 
+                        <a href="88rising.html" class="label-button">View Project →</a>
+                    </div>
+                    <!-- right side -->
+                    <div class="project-details project-item">
+                        <a href="88rising.html">
+                            <div class="project-img static-img project-item ">
+                                <figure>
+                                    <img alt="Splitiwse Banner image" class="lazy js-off" src="img/Splitwise/Splitwise_banner_100.png"
+                                    data-src="img/Splitwise/Splitwise_banner_400.png"
+                                    data-srcset="img/Splitwise/Splitwise_banner_400.png 400w,
+                                                 img/Splitwise/Splitwise_banner_800.png 800w,
+                                                 img/Splitwise/Splitwise_banner_1080.png 1080w"
+                                    data-sizes="100w">
+                                    <noscript>
+                                        <img src="img/Splitwise/Splitwise_banner_400.png" alt="Splitiwse Banner image"
+                                        srcset="img/Splitwise/Splitwise_banner_400.png 400w,
+                                                img/Splitwise/Splitwise_banner_800.png 800w,
+                                                img/Splitwise/Splitwise_banner_1080.png 1080w" 
+                                        sizes="(min-width: 74rem) 50vw, 100vw"
+                                        >
+                                    </noscript>
+                                </figure> 
+                            </div>
+                        </a>
+                        <div class=" grid two-col-project-grid">
+                            <h3>Side/Passion Projects</h3>
+                            <p class="project-type right-align-text">MOTION DESIGN. GRAPHIC DESIGN</p>
+                        </div>
+                        <p class="project-description">Various side projects I have created throughout the years in my (little) spare time.</p> 
+                        <a href="fureverhome.html" class="label-button">View Project →</a>
                     </div>
                 </div>
             </div>
         </section>
-        <p class="h2-sub">More projects analysis and project gallery coming soon 👀!!</p>
     </main>
   
     <footer id="contacts">
 
-        <p class="footer-head">Thank you for checking out my works!</p>
-        <p>If you have any questions or inquiries, feel free to connect with me through my <a href="mailto:lukedo2111@gmail.com" class="in-text-link">Email</a>, <a href="https://www.instagram.com/lukex1a/" class="in-text-link" target="_blank">Instagram</a> or through <a href="https://www.linkedin.com/in/luke-do-284073216/" class="in-text-link" target="_blank">LinkedIn</a></p>
-        <p>Website designed and coded by me :D</p>
+        <div class=" grid two-col-project-grid">
+            <h4>Designed and coded by me :D with the help of city pop, cameras and anime.</h4>
+            <div>
+                <p class="right-align-text">EXPERIENCE DESIGN. UX. UI</p>
+            </div>
+        </div>
     </footer>        
     <script src="js/vanilla-lazyload.js"></script>
     <script src="js/scrollTrigger.js"></script>
