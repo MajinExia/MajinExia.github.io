@@ -106,78 +106,6 @@ img.nav-item {
     margin-right: auto;
 }
 
-
-/* Text reveal taken from  https://codepen.io/equinusocio/pen/KNYOxJ */
-
-.reveal-text,
-.reveal-text::after {
-	animation-delay: var(--animation-delay, 2s);
-	animation-iteration-count: var(--iterations, 1);
-	animation-duration: var(--duration, 1s);
-	animation-fill-mode: both;
-	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
-}
-
-.reveal-text {
-	--animation-delay: var(--delay, 0);
-	--animation-duration: var(--duration, 1s);
-	--animation-iterations: var(--iterations, 1);
-	position: relative;
-	font-size: 10vw;
-	animation-name: clip-text;
-	color: #FFF;
-    margin-top: 0;
-	cursor: default;
-}
-
-.reveal-text::after{
-    content: "";
-    position: absolute;
-    z-index: 999;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #108b8f;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    pointer-events: none;
-    animation-name: text-revealer;
-    border-radius: 1rem;
-}
-
-@keyframes clip-text {
-	from {
-		clip-path: inset(0 100% 0 0);
-	}
-	to {
-		clip-path: inset(0 0 0 0);
-	}
-}
-
-
-@keyframes text-revealer {
-	
-	0%, 50% {
-		transform-origin: 0 50%;
-	}
-	
-	60%, 100% {
-		transform-origin: 100% 50%;		
-	}
-
-	
-	60% {
-		transform: scaleX(1);
-	}
-	
-	100% {
-		transform: scaleX(0);
-	}
-}
-
-/* ------------------------------------ */
-
 .main-banner{
     padding:  7rem;
 }
@@ -190,17 +118,18 @@ img.nav-item {
     max-width: 60rem;
 }
 
+.main-banner p {
+    margin-top: 1rem;
+}
+
 .main-banner h4{
-    margin-top: 10rem;
+    margin-top: 8rem;
+    margin-bottom: 0.6rem;
 }
 
 #hero-video video{
-    object-fit: contain;
-}
-
-#hero-text{
-    position: relative;
-    bottom: -5rem
+    margin-top: 1rem;
+    object-fit: cover;
 }
 
 #banner-text{
@@ -329,10 +258,6 @@ footer{
     color: #242424;
     background-color:#F5F8FD;
     padding: 3rem 4rem;
-}
-
-.footer-msg{
-    max-width: 20rem;
 }
 
 .in-text-link{
@@ -541,20 +466,29 @@ footer{
 
 /* Bio */
 
+.main-about-page{
+    padding: 0;
+    margin: 0;
+}
+
 .about-me-2c{
     padding-top: 4rem;
 }
 
 .about-img img{
     padding: 2rem;
-    max-width: 100%;
     border-radius: 4rem;
+    max-width: 60rem;
+    z-index: 1;
 }
 
 .about-bio{
     color: white;
-    max-width: 41.75rem;
-    padding: 1rem;
+    max-width: 45rem;
+}
+
+.about-me{
+    padding: 3rem 4rem;
 }
 
 .about-bio p{
@@ -562,7 +496,7 @@ footer{
 }
 
 .about-bio h1{
-    color: #ECB365;
+    color: #242424;
     font-size: 2rem;
     text-align: left;
 }
@@ -631,10 +565,6 @@ span{
     grid-template-columns: 1fr 1fr;
 }
 
-@media (min-width: 0rem){
-
-}
-
 /* 320px */
 @media (min-width: 20rem){
 
@@ -682,10 +612,11 @@ span{
     }
     
     .main-banner h1{
+        margin-top: .5rem;
         font-size: 2rem;
         margin-bottom: 0;
     }
-    
+
     .featured-project, .project-banner {
         grid-template-columns: 1fr;
     }
@@ -758,10 +689,6 @@ span{
         border-radius: .5rem;
     }
 
-    .about-bio{
-        padding: 0;
-    }
-
     .about-bio h1{
         font-size: 1.4rem;
     }
@@ -778,11 +705,11 @@ span{
 @media (min-width: 37.5rem){
 
     .project-type{
-        font-size: .75rem;
+        font-size: .7rem;
     }
 
     .project-details h3{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .nav-grid-text{
@@ -808,6 +735,13 @@ span{
     .text-box{
         max-width: 40rem;
     }
+    #hero-video video{
+        border-radius: .5rem;
+    }
+
+    .footer-msg{
+        max-width: 15rem;
+    }
 }
 
 /* 768px */
@@ -817,6 +751,9 @@ span{
         display: block;
     }
 
+    #hero-video video{
+        max-height: 23rem;
+    }
     .project-img img, .right-banner img{
         display: none;
     }
@@ -830,12 +767,8 @@ span{
     }
 
     #Featured_Project h2{
-        font-size: 2rem;
-        margin-bottom: .5rem;
-    }
-
-    .h2-sub p{
-        font-size: 1rem;
+        font-size: .5rem;
+        font-weight: 400;
     }
 
     .nav-grid-master {
@@ -856,7 +789,7 @@ span{
     }
 
     .featured-project .project-details{
-        text-align: center;
+        text-align: start;
     }
 
     .project-banner .project-details{
@@ -864,8 +797,7 @@ span{
     }
 
     .main-banner h1{
-        font-size: 3rem;
-        margin-bottom: 1.5rem;
+        font-size: 2rem;
     }
 
     .main-banner{
@@ -904,27 +836,43 @@ span{
     }
 
     .about-img img{
-        padding: 2rem;
+        padding: 0rem;
         border-radius: 4rem;
+        max-width: 90%;
     }
 
     .about-bio h1{
         font-size: 2rem;
     }
 
-    .about-bio{
-        padding: 1rem;
-    }
-
     .about-bio p{
         line-height: 1.8rem;
         font-size: 1rem;
     }
-    
+
+    .two-col-project-grid, .selected-works{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* 1024 px  */
 @media (min-width: 64rem){
+
+    .footer-msg{
+        max-width: 20rem;
+    }
+
+    .project-details h3{
+        font-size: 1.5rem;
+    }
+
+    .project-type{
+        font-size: .75rem;
+    }
+
+    #hero-video video{
+        max-height: fit-content;
+    }
 
     #Featured_Project h2{
         font-size: .75rem;
@@ -965,6 +913,7 @@ span{
     
     .main-banner h1{
         font-size: 2.15rem;
+        margin-bottom: 1.5rem;
     }
 
     .project-description{
@@ -995,14 +944,13 @@ span{
     }
 
     .about-me-2c{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: .5fr 1fr;
+        align-items: start ;
+        justify-items: start;
     }
 
     .main-banner-2c{
         grid-template-columns: 1fr 1fr;
-    }
-
-    .two-col-project-grid, .selected-works{
-        grid-template-columns: 1fr 1fr;
+        align-items: start;
     }
 }
