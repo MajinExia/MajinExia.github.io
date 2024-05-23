@@ -105,15 +105,14 @@ img.nav-item {
 }
 
 .main-banner h1{
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
     text-align: left;
-    color: rgb(36, 36, 36);
+    color: #242424;
     max-width: 60rem;
 }
 
 .main-banner p {
     margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 
 #hero-video video{
@@ -268,7 +267,7 @@ footer{
 }
 
 .in-text-link:hover, .in-text-link:focus, .footer-link:hover, .footer-link:focus{
-    color: #041C32;
+    color: #242424;
     box-shadow: inset 25rem 0 0 0 #ECB365;
     text-decoration: none;
 }
@@ -282,7 +281,7 @@ footer{
     padding: .7rem .7rem;
     transition: 0.5s all ease-in-out;
     font-size: 1rem;
-    border: solid 1px #000000;
+    border: solid 1px #242424;
     border-radius: 0.5rem;
     margin-top: .5rem;
     margin-bottom: 0.5rem;
@@ -338,7 +337,6 @@ footer{
 
 .project-analysis p{
     margin: 1.5rem 0 1.5rem 0;
-    font-size: .95rem;
 }
 
 .two-col-bottomnav-grid{
@@ -366,7 +364,6 @@ footer{
 }
 
 .project-analysis h4{
-    font-size: 1.4rem;
     font-weight: 500;
     margin-bottom: .75rem;
 }
@@ -390,8 +387,6 @@ footer{
 .project-quotes h4{
     margin-top: 0.25rem;
     padding-top: 0;
-    font-weight: 400;
-    font-size: 1.3rem;
 }
 
 .project-quotes h5{
@@ -555,6 +550,16 @@ span{
         display: none;
     } 
 
+    .project-quotes{
+        margin-top: 3rem;
+        margin-left: 0rem; 
+        padding: 0rem 0rem 0rem 1rem;
+    }
+
+    .project-analysis p{
+        font-size: .75rem;
+    }
+
     .project-description{
         margin: 0;
         padding-top: 0rem ;
@@ -564,9 +569,41 @@ span{
         grid-template-columns: 1fr 1fr;
     }
 
+    .project-header h1{
+        font-size: 1.25rem;
+    }
+
+    .project-analysis{
+        margin-left: 0rem;
+        padding-top: 4rem;
+    }
+
+    .project-header{
+        padding: 0rem 1rem 0rem 1rem;
+        margin: auto;
+    }
+
+    .project-roles{
+        column-gap: 1.25rem;
+    }
+
+    #overview{
+        padding-top: 3rem !important;
+    }
+
+    .project-analysis h4{
+        font-size: 1rem;
+        margin-bottom: 1.75rem;
+        line-height: 1.4rem;
+    }
+
+    #bottom-nav-right{
+        display: none;
+    }
+
     main{
-        padding: 0;
-        margin: 2rem;
+        padding-top: 2rem;
+        margin: 1rem;
     }
 
     #Featured_Project h2{
@@ -698,15 +735,37 @@ span{
         font-size: .87rem;
     }
 
+    footer{
+        padding: 3rem 1rem;
+    }
 }
 
 /* 600px */
 
 @media (min-width: 37.5rem){
 
+    #bottom-nav-right{
+        display: block;
+    }
+
+    .project-analysis h4{
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-bottom: .75rem;
+        line-height: 1.5rem;
+    }
+
+    .project-analysis p{
+        font-size: .95rem;
+    }
+
     main {
         margin: 1rem;
         padding: 1rem 3rem 1rem 3rem;  
+    }
+
+    .project-header h1{
+        font-size: 1.5rem;
     }
 
     .right-align-container{
@@ -757,6 +816,10 @@ span{
         border-radius: .5rem;
     }
 
+    footer{
+        padding: 3rem 4rem;
+    }
+
     .footer-msg{
         max-width: 15rem;
     }
@@ -772,22 +835,14 @@ span{
 
     .project-header{
         padding: 1rem 4rem 0rem 4rem;
-        margin: auto;
     }
 
     .project-quotes{
-        margin-top: 4rem;
-        margin-left: 0rem; 
-        padding: 0.5rem 0rem 0.5rem 2rem;
+        padding: 0rem 0rem 0rem 2rem;
     }
 
     .project-quotes h4{
         font-size: 1.1rem;
-    }
-
-    .project-analysis{
-        margin-left: 0rem;
-        padding-top: 6rem;
     }
 
     #graph88r{
@@ -927,6 +982,15 @@ span{
         padding: 1.5rem 0rem 1.5rem 4rem;
     }
 
+    .project-header h1{
+        font-size: 1.6rem;
+    }
+
+    .project-quotes h4{
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
     .project-analysis{
         margin-left: 2rem;
         padding-top: 6rem;
@@ -997,7 +1061,7 @@ span{
     }
     
     .main-banner h1{
-        font-size: 2.15rem;
+        margin-top: 0.6rem;
         margin-bottom: 1.5rem;
     }
 
