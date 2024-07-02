@@ -1089,3 +1089,70 @@ span{
         align-items: start;
     }
 }
+
+@media (min-width:160rem){
+
+    .nav-grid-text{
+        padding-left: 6rem;
+    }
+    .project-details, .project-img video{
+        max-width: 75rem;
+    }
+
+    .project-img video{
+        max-height: 40rem;
+    }
+
+    .project-header h1{
+        font-size: 1.75rem;
+        max-width: 50rem;
+    }
+
+    .project-analysis{
+        padding-top: 10rem;
+    }
+
+    .project-analysis h2{
+        font-size: 1.6rem;
+    }
+
+    .project-analysis h3{
+        font-size: 1.5rem;
+    }
+
+    .project-analysis p{
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .text-container {
+        max-width: 65rem;
+    }
+
+    .project-quotes h4{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .right-align-container{
+        left: 53%;
+        max-width: 40rem;
+    }
+
+    .about-bio{
+        max-width: 58rem;
+    }
+
+    .about-bio h2{
+        font-size: 1.6rem;
+    }
+    .about-bio p{
+        padding-top: 2rem;
+        line-height: 2rem;
+        font-size: 1.25rem;
+    }
+    .footer-msg{
+        max-width: 25rem;
+    }
+}
