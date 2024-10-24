@@ -390,8 +390,6 @@ footer{
 }
 
 .project-quotes h5{
-    font-size: 1.1rem;
-    line-height: 1.6rem;
     font-weight: 400;
 }
 
@@ -410,7 +408,6 @@ footer{
 }
 
 .project-roles p{
-    font-size: .9rem;
     margin-top: .5rem;
 }
 
@@ -494,7 +491,10 @@ footer{
 
 .add-gutters {
     column-gap: 4rem;
-    row-gap: 1.2rem;
+}
+
+.nav-gutter{
+    row-gap: 1rem;
 }
 
 .featured-project, .project-banner {
@@ -545,6 +545,10 @@ span{
 /* 320px */
 @media (min-width: 20rem){
 
+    .add-gutters {
+        row-gap: 3rem;
+    }
+
     /* Re add img and remove video later  */
      video{
         display: none;
@@ -557,7 +561,7 @@ span{
     }
 
     .project-analysis p{
-        font-size: .75rem;
+        font-size: .85rem;
     }
 
     .project-description{
@@ -575,7 +579,7 @@ span{
 
     .project-analysis{
         margin-left: 0rem;
-        padding-top: 4rem;
+        padding-top: 3rem;
     }
 
     .project-header{
@@ -591,9 +595,19 @@ span{
         padding-top: 3rem !important;
     }
 
+    .project-roles p{
+        font-size: .85rem;
+        line-height: 1.15rem;
+    }
+
     .project-analysis h4{
         font-size: 1rem;
         margin-bottom: 1.75rem;
+        line-height: 1.4rem;
+    }
+
+    .project-analysis h5{
+        font-size:0.9rem;
         line-height: 1.4rem;
     }
 
@@ -713,7 +727,7 @@ span{
     }
 
     .featured-project{
-        padding: 1.25rem 1rem 1.8rem 1rem;
+        padding: 1.25rem 1rem 2.25rem 1rem;
     }
 
     .about-me-2c{
@@ -746,6 +760,10 @@ span{
 
     #bottom-nav-right{
         display: block;
+    }
+
+    .add-gutters {
+        row-gap: 1.2rem;
     }
 
     .project-analysis h4{
@@ -835,6 +853,10 @@ span{
 
     .project-header{
         padding: 1rem 4rem 0rem 4rem;
+    }
+
+    .project-roles p{
+        font-size: .9rem;
     }
 
     .project-quotes{
@@ -989,6 +1011,11 @@ span{
     .project-quotes h4{
         font-weight: 400;
         font-size: 1.2rem;
+    }
+
+    .project-quotes h5{
+        font-size: 1.1rem;
+        line-height: 1.6rem;
     }
 
     .project-analysis{
