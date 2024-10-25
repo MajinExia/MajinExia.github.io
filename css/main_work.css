@@ -86,7 +86,7 @@ nav a {
 .nav-button a:focus, .nav-item:focus {
     z-index: 100;
     text-decoration: none;
-    color: #041C32;
+    color: #041C32 !important;
     box-shadow: inset 7rem 0 0 0 #ECB365;
   }
 
@@ -267,7 +267,7 @@ footer{
 }
 
 .in-text-link:hover, .in-text-link:focus, .footer-link:hover, .footer-link:focus{
-    color: #242424;
+    color: #242424 !important;
     box-shadow: inset 25rem 0 0 0 #ECB365;
     text-decoration: none;
 }
@@ -292,6 +292,8 @@ footer{
     color: #242424;
     box-shadow: inset 20rem 0 0 0 #ECB365;
 }
+
+
 
 /* Project Analysis */
 
@@ -494,6 +496,7 @@ footer{
 }
 
 .nav-gutter{
+    column-gap: 2rem;
     row-gap: 1rem;
 }
 
@@ -523,9 +526,8 @@ span{
     grid-template-columns: 4fr 1fr;
 }
 
-.nav-grid-text {
+.nav-grid-text, .footer-grid-text {
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project-card-2c{
@@ -624,11 +626,11 @@ span{
         font-size: .5rem;
     }
 
-    .nav-grid-text{
+    .nav-grid-text, .footer-grid-text{
         grid-template-columns: 1fr;
     }
 
-    .nav-grid-text .nav-item{
+    .nav-grid-text .nav-item, .footer-grid-text .nav-item{
         text-decoration: underline;
     }
 
@@ -808,10 +810,14 @@ span{
     }
 
     .nav-grid-text{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .footer-grid-text{
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .nav-grid-text .nav-item{
+    .nav-grid-text .nav-item, .footer-grid-text .nav-item{
         text-decoration: none;
     }
 
@@ -1119,7 +1125,7 @@ span{
 
 @media (min-width:160rem){
 
-    .nav-grid-text{
+    .nav-grid-text, .footer-grid-text{
         padding-left: 6rem;
     }
     .project-details, .project-img video{
