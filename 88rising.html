@@ -55,7 +55,7 @@
                         <div class="grid project-roles three-col-project-grid">
                             <div>
                                 <h3>My Contribution</h3>
-                                <p>UX Researcher, UI Designer, Decision Maker, Copy Writer</p>
+                                <p>Lead UX Researcher, UX designer, Interaction Designer</p>
                             </div>
                             <div>
                                 <h3>Team</h3>
@@ -63,7 +63,7 @@
                             </div>
                             <div>
                                 <h3>Tools</h3>
-                                <p>Figma, After Effects, Premiere Pro, Audacity, Google Forms</p>
+                                <p>Figma, After Effects, Premiere Pro, Audacity, Google Survey</p>
                             </div>
                         </div>
                     </div> 
@@ -73,32 +73,64 @@
 
         <main>
             <div class="separating-line"></div>
-            <section class="project-analysis grid two-col-project-grid" id="overview">
-                <div class="text-container">
-                    <h2>Project Description</h2>
-                    <p>88rising is a renowned record label and entertainment company to represents Asian culture in the West. What truly sets them apart from other record labels is their ethos of challenging existing stereotypes through showcasing how Asians can equally have a voice in the music industry, providing these seemingly “unheard” voices a platform to flourish. This redesigned 88rising experience serves as a touchpoint for fans, offering a unique journey to explore details about their favourite artists, while also supporting lesser-known talents, thereby expanding their influence.</p>
-                    <p>I was responsible for conducting user research, content strategy, interactions design, copywriting while also being the decision maker during our design sprints.</p>
-                    <a href="88rising.html#solution" class="label-button" id="solution-button">Jump to proposed intervention ↓</a>
-                </div>
-                <div class="project-quotes" >
-                    <h4>"For Asians and Asian Americans and just Asian youth globally,<span> there’s no real home on the Internet, </span>or a company consistently putting out things that either include Asian talent or Asian viewpoints in stories."</h4>
-                    <p>— Sean Miyashiro, Founder of 88rising</p>
-                </div>
-            </section>
+
             <section class="project-analysis">
                 <div class="research">
-                    <div class="right-align-container">               
-                        <h3>Business Problem</h3>
-                        <p>Despite enjoying massive success in their debut, they have since faced issues with maintaining their success. Within the past 4 years, they’ve experienced a loss of over 2.6 billion in viewerships.</p>
+                    <div class="right-align-container"> 
+                        <div id="graph88t">              
+                            <h3>"For Asians and Asian Americans and just Asian youth globally,<span> there’s no real home on the Internet, </span>or a company consistently putting out things that either include Asian talent or Asian viewpoints in stories."</h3>
+                            <p>— Sean Miyashiro, Founder of 88rising</p>
+                        </div>
                     </div>
                     <img src="img\88rising\88graph_1080.webp" class="reponsive-img background-img" id="graph88r">
 
                 </div>
             </section>
+
+            <section class="project-analysis" id="overview">
+                <div class="text-container">
+                    <h2>Setting The Stage</h2>
+                    <p>Elevating artists like Joji, Rich Brian and NIKI into modern pop culture, 88rising is a multi-media record label that aims to create a platform for Asian and Asian-American talents, bridging the gap between the East and the West. They have quickly became a cultural phenomenon, gaining over 3 billion views within 3 years on YouTube.</p>
+
+                    <p>However, 88rising has since <span>faced issues with discoverability. Within the past 4 years, they’ve only accumulated 0.43 billion views</span> on YouTube and have struggled with providing their new artists with the same reach that they formerly had.</p>
+                    
+                    <p>During this 7 weeks long project, I <span>led the user research</span>, as well as contributed to the design of the different interactions, content strategy while also being the <span>decision maker</span> during our design sprints.</p>
+                    <a href="88rising.html#solution" class="label-button" id="solution-button">Jump to proposed intervention ↓</a>
+                </div>
+            </section>
+
+            <section class="risinghero-video">
+                <div class="text-container">
+                    <h2>A Sneak Peek of Our Solution</h2>
+                </div>
+
+                <figure id="hero">
+                    <video class="lazy js-off" width="1920" height="960" data-src="img\88rising\Hero88.webm" src="Hero_100.webp" autoplay loop playsinline muted aria-label="A Sneak Peek of Our Solution"> </video>
+                    <img alt="A Sneak Peek of Our Solution" class="lazy js-off" src="Hero_100.webp"
+                    data-src="img\88rising\Hero_400.webp"
+                    data-srcset="img\88rising\Hero_400.webp 400w,
+                                 img\88rising\Hero_800.webp 600w,
+                                 img\88rising\Hero_1080.webp 1080w"
+                    data-sizes="100w">
+
+                    <noscript>
+                        <video src="img\88rising\Hero88.webm" autoplay loop playsinline muted aria-label="8A Sneak Peek of Our Solution"></video> 
+                        <img src="Hero_100.webp" alt="A Sneak Peek of Our Solution"
+                        srcset="img\88rising\Hero_400.webp 400w,
+                                img\88rising\Hero_800.webp 600w,
+                                img\88rising\Hero_1080.webp 1080w" 
+                        sizes="(min-width: 60rem) 50vw, 100vw"
+                        >
+                    </noscript>
+                </figure>
+                
+        </section>
+
             <section class="project-analysis grid two-col-project-grid">
                 <div class="text-container">
+                    <h2>User Research</h2>
                     <h3>The root of the issue</h3>
-                    <p>The team researched online for secondary data in combination with user interviews and surveys with <span>89 respondents</span> (1 over 88!!), ranging from casual to die-hard fans regarding their music-sharing habits, and their perception of 88rising and its artist roster.</p>
+                    <p>At the beginning of the project the team researched online for secondary data in combination with user interviews and surveys with <span>89 respondents</span> (1 over 88!!), ranging from casual to die-hard fans regarding their music-sharing habits, and their perception of 88rising and its artist roster.</p>
                     <p>These interviews pointed to a lack of awareness within the fanbase of 88rising’s frequent releases with <span>62% of respondents not aware of their monthly releases.</span> Another question that was brought up during the survey was if they agree that 88rising is declining in popularity, to which the majority of the survey respondents agreed. However, when asked the reason why, <span>41% of our casual fans respondents attributed it to the lack of engagement</span> from the brand themselves, despite having an interest in 88rising’s new talents and their signature sounds.</p>
                 </div>
                 <div class="project-quotes">
@@ -108,32 +140,7 @@
                     <p>— Survey Respondent, talking about 88rising's newer artists</p>
                 </div>
             </section>
-            <section class="project-analysis grid two-col-project-grid align-top add-gutters"> 
-                <div class="text-container">
-                <h3>Why redesign the 88rising website?</h3>
-                <p><span>88rising's current website primarily focuses on merchandise</span>, lacking clarity on its current roster of artists and background information. Although YouTube serves as a significant touchpoint for their original content, it is scattered across various channels, <span>making it challenging for fans to discover and learn more</span> about their favourite artists.</p>
-                </div>
-                <figure class="figure-analysis project-img">
-                    <video class="lazy js-off" width="1920" height="1080" data-src="img\88rising\88website.webm" src="img\88rising\88website_100.webp" autoplay loop playsinline muted aria-label="88rising's current website and content on YouTube"></video>
-                    <img alt="Character's Mask On" class="lazy js-off" src="img\88rising\88website_100.webp"
-                    data-src="img\88rising\88website_400.webp"
-                    data-srcset="img\88rising\88website_400.webp 400w,
-                                    img\88rising\88website_600.webp 600w,
-                                    img\88rising\88website_1080.webp 1080w"
-                    data-sizes="100w">
 
-                    <noscript>
-                        <video src="img\88rising\88website.webm" autoplay loop playsinline muted aria-label="88rising's current website"></video> 
-                        <img src="img\88rising\88website_100.webp" alt="88rising's current website and content on YouTube"
-                        srcset="img\88rising\88website_400.webp 400w,
-                                img\88rising\88website_600.webp 600w,
-                                img\88rising\88website_1080.webp 1080w" 
-                        sizes="(min-width: 60rem) 50vw, 100vw"
-                        >
-                    </noscript>
-                    <figcaption class="caption-analysis">88rising's current website and content spread across YouTube</figcaption>
-                </figure>
-            </section>
             <section class="project-analysis">
                 <div class="text-container">
                 <h3>Framing the issue</h3>
@@ -157,6 +164,107 @@
                     <figcaption class="caption-analysis">User Journey Map generated through through design sprints and user insights </figcaption>
                 </figure> 
             </section>
+
+            <section class="project-analysis grid two-col-project-grid align-top add-gutters"> 
+                <div class="text-container">
+                <h2>Current Touchpoints</h2>
+                <h3>YouTube</h3>
+                <p>From our research and design sprints, YouTube currently serves as 88rising’s main platform to share original content featuring their various artists. However, music videos, behind-the-scenes, interviews, and other collaboration content are <span>burried and scattered across various channels, making it challenging for fans to discover and connect with their favorite artists.</span></p>
+                </div>
+                <figure class="figure-analysis project-img">
+                    <video class="lazy js-off" width="1920" height="1080" data-src="img\88rising\YouTube.webm" src="img\88rising\YouTube_100.webp" autoplay loop playsinline muted aria-label=">88rising's current YouTube Channel and other contents across the platform"></video>
+                    <img alt=">88rising's current YouTube Channel and other contents across the platform" class="lazy js-off" src="img\88rising\YouTube_100.webp"
+                    data-src="img\88rising\YouTube_400.webp"
+                    data-srcset="img\88rising\YouTube_400.webp 400w,
+                                    img\88rising\YouTube_600.webp 600w,
+                                    img\88rising\YouTube_1080.webp 1080w"
+                    data-sizes="100w">
+
+                    <noscript>
+                        <video src="img\88rising\YouTube.webm" autoplay loop playsinline muted aria-label=">88rising's current YouTube Channel and other contents across the platform"></video> 
+                        <img src="img\88rising\YouTube_100.webp" alt=">88rising's current YouTube Channel and other contents across the platform"
+                        srcset="img\88rising\YouTube_400.webp 400w,
+                                img\88rising\YouTube_600.webp 600w,
+                                img\88rising\YouTube_1080.webp 1080w" 
+                        sizes="(min-width: 60rem) 50vw, 100vw"
+                        >
+                    </noscript>
+                    <figcaption class="caption-analysis">88rising's current YouTube Channel and other contents across the platform</figcaption>
+                </figure>
+            </section>
+
+            <section class="project-analysis grid two-col-project-grid align-top add-gutters"> 
+                <figure class="figure-analysis project-img">
+                    <video class="lazy js-off" width="1920" height="1080" data-src="img\88rising\88website.webm" src="img\88rising\88website_100.webp" autoplay loop playsinline muted aria-label="88rising's current website"></video>
+                    <img alt="88rising's current website" class="lazy js-off" src="img\88rising\88website_100.webp"
+                    data-src="img\88rising\88website_400.webp"
+                    data-srcset="img\88rising\88website_400.webp 400w,
+                                    img\88rising\88website_600.webp 600w,
+                                    img\88rising\88website_1080.webp 1080w"
+                    data-sizes="100w">
+
+                    <noscript>
+                        <video src="img\88rising\88website.webm" autoplay loop playsinline muted aria-label="88rising's current website"></video> 
+                        <img src="img\88rising\88website_100.webp" alt="88rising's current website"
+                        srcset="img\88rising\88website_400.webp 400w,
+                                img\88rising\88website_600.webp 600w,
+                                img\88rising\88website_1080.webp 1080w" 
+                        sizes="(min-width: 60rem) 50vw, 100vw"
+                        >
+                    </noscript>
+                    <figcaption class="caption-analysis">88rising's current website</figcaption>
+                </figure>
+
+                <div class="text-container">
+                    <h3>88rising Wesbite</h3>
+                    <p>Additionally, 88rising’s current website only <span>focuses on merchandise sales, lacking any clarity on their current roster of artists</span>, what the brand is about, and any information about the personalities surrounding the brand. This makes it even harder for fans to truly jump down the rabbit hole and learn more about favorite artists and discover upcoming ones as well.</p>
+                    </div>
+            </section>
+
+            <section class="project-analysis">
+                <div class="text-container">
+                <h2>Inital Ideations</h2>
+                <p> While these first few iterations had potential, the execution wasn't there just yet in terms of interaction and visual design. As such, we refined our approach to better balance 88rising's goals with our content strategy. <span>In this stage, I led the design of the layout, interactions as well as content organization of the landing page and the artist page</span>. While this improved the overall concept, the artists' page was noted for lacking cohesion and needing stronger integration with the site's design.</p>
+                </div>
+                <div class="grid two-col-project-grid add-gutters static-img">
+                    <figure class="figure-analysis project-img">
+                        <img alt="First Iteration" class="lazy js-off" src="img\88rising\FirstIteration_100.webp"
+                        data-src="img\88rising\FirstIteration_400.webp"
+                        data-srcset="img\88rising\FirstIteration_400.webp 400w,
+                                     img\88rising\FirstIteration_800.webp 600w,
+                                     img\88rising\FirstIteration_1080.webp 1080w"
+                        data-sizes="100w">
+                        <noscript>
+                            <img src="img\88rising\FirstIteration_100.webp" alt="First Iteration"
+                            srcset="img\88rising\FirstIteration_400.webp 400w,
+                                    img\88rising\FirstIteration_800.webp 600w,
+                                    img\88rising\FirstIteration_1080.webp 1080w" 
+                            sizes="(min-width: 74rem) 50vw, 100vw"
+                            >
+                        </noscript>
+                        <figcaption class="caption-analysis">First Iteration</figcaption>
+                    </figure>
+    
+                    <figure class="figure-analysis project-img">
+                        <img alt="Second Iteration" class="lazy js-off" src="img\88rising\SecondIteration_100.webp"
+                        data-src="img\88rising\SecondIteration_400.webp"
+                        data-srcset="img\88rising\SecondIteration_400.webp 400w,
+                                     img\88rising\SecondIteration_800.webp 600w,
+                                     img\88rising\SecondIteration_1080.webp 1080w"
+                        data-sizes="100w">
+                        <noscript>
+                            <img src="img\88rising\SecondIteration_100.webp" alt="Second Iteration"
+                            srcset="img\88rising\SecondIteration_400.webp 400w,
+                                    img\88rising\SecondIteration_800.webp 600w,
+                                    img\88rising\SecondIteration_1080.webp 1080w" 
+                            sizes="(min-width: 74rem) 50vw, 100vw"
+                            >
+                        </noscript>
+                        <figcaption class="caption-analysis">Second Iteration</figcaption>
+                    </figure>     
+                </div>  
+            </section>
+
             <section class="project-analysis grid two-col-project-grid add-gutters align-top" id="solution">
                 <div class="text-container">
                     <h2>Result</h2>
@@ -164,7 +272,7 @@
                     <a href="https://www.figma.com/proto/aRfynDHRrGy4l6AnK5kR3P/88rising-Demo-Prototype?kind=proto&node-id=1-1603&page-id=0%3A1&scaling=scale-down&t=w2G7fgFCZoDXCAc6-1&type=design&viewport=2952%2C2231%2C0.17" class="label-button" target="_blank">Experience the interactive prototype here!</a>
                 </div>
                 <figure class="figure-analysis project-img">
-                    <video class="lazy js-off" width="1920" height="1080" data-src="img\88rising\walkthrough.mp4" src="img\88rising\Thumbnail_100.webp" loop playsinline aria-label="88rising's experience design prototype walkthrough" controls="controls"></video>
+                    <video class="lazy js-off" width="1920" height="1080" data-src="img\88rising\walkthrough.mp4" src="img\88rising\Thumbnail_100.webp" autoplay muted loop playsinline aria-label="88rising's experience design prototype walkthrough" controls="controls"></video>
                     <img alt="88rising's experience design prototype walkthrough" class="lazy js-off" src="img\88rising\Thumbnail_100.webp"
                     data-src="img\88rising\Thumbnail_400.webp"
                     data-srcset="img\88rising\Thumbnail_400.webp 400w,
@@ -185,10 +293,6 @@
                 </figure>
             </section>
             <section class="project-analysis grid two-col-project-grid add-gutters align-top">
-                <div class="text-container">
-                    <h3>Connecting Through Languages</h3>
-                    <p>Our research showed that similar to 88rising’s artist roster, their fans are spread across the globe, having different cultural backgrounds and experiences. The use of different languages when they first land on the site <span>helps ease fans into new artists by establishing relatable connections based on language and culture</span>. This helps provide a starting point and draws in casual audiences unfamiliar with where to begin.</p>
-                </div>
                 <figure class="project-img figure-analysis">
                     <video class="lazy js-off" width="1920" height="1080" data-src="img\88rising\homepage.webm" src="img\88rising\Landing Page_100.webp" autoplay loop playsinline muted aria-label="Revamped 88rising landing page"></video>
                     <img alt="After Effects puppet tool"class="lazy js-off" src="img\88rising\Landing Page_100.webp"
@@ -209,6 +313,10 @@
                     </noscript>
                     <figcaption class="caption-analysis">Revamped 88rising Landing Page</figcaption>
                 </figure> 
+                <div class="text-container">
+                    <h3>Connecting Through Languages</h3>
+                    <p>Our research showed that similar to 88rising’s artist roster, their fans are spread across the globe, having different cultural backgrounds and experiences. The use of different languages when they first land on the site <span>helps ease fans into new artists by establishing relatable connections based on language and culture</span>. This helps provide a starting point and draws in casual audiences unfamiliar with where to begin.</p>
+                </div>
             </section>
             <section class="project-analysis grid two-col-project-grid add-gutters align-top">
                 <div class="text-container">
@@ -237,10 +345,6 @@
                 </figure> 
             </section>
             <section class="project-analysis grid two-col-project-grid add-gutters align-top">
-                <div class="text-container">
-                <h3>Adaptable Individuality</h3>
-                    <p>Each artist page features image stacks, efficiently organizing a large amount of relatable and personal artist content across different platforms onto a single screen. This design enhances accessibility for casual fans, allowing them to easily go down the rabbit hole about the artists they find intriguing. Furthermore, the design's adaptability extends to various artists, serving as <span>a versatile framework applicable to different members of 88rising's roster.</span></p>
-                </div>
                 <figure class="project-img figure-analysis">
                     <video class="lazy js-off" width="1920" height="1080" data-src="img\88rising\artists.mov" src="img\88rising\ArtistPage_100.webp" autoplay loop playsinline muted aria-label="88rising Artist Page Navigation"></video>
                     <img alt="88rising Artist Page Navigation"class="lazy js-off" src="mg\88rising\ArtistPage_100.webp"
@@ -261,21 +365,52 @@
                     </noscript>
                     <figcaption class="caption-analysis">88rising Artist Page Navigation</figcaption>
                 </figure> 
+                <div class="text-container">
+                    <h3>Adaptable Individuality</h3>
+                        <p>Each artist page features image stacks, efficiently organizing a large amount of relatable and personal artist content across different platforms onto a single screen. This design enhances accessibility for casual fans, allowing them to easily go down the rabbit hole about the artists they find intriguing. Furthermore, the design's adaptability extends to various artists, serving as <span>a versatile framework applicable to different members of 88rising's roster.</span></p>
+                    </div>
             </section>
+
+            <section class="project-analysis grid two-col-project-grid add-gutters align-top">
+                <div class="text-container">
+                    <h3>Fully Responsive</h3>
+                    <p>As many fans consume music-related content primarily through mobile devices, <span>our next step is to adapt the desktop design into a mobile-friendly experience</span>. This involves rethinking how interactions and content layouts translate to smaller screen sizes, particularly as the desktop design relies heavily on hover-based interactions. Experimenting with touch-based interaction systems will be crucial to ensure a seamless and engaging mobile experience.</p>
+                </div>
+                <figure class="project-img figure-analysis">
+                    <video class="lazy js-off" width="1920" height="1080" data-src="img\88rising\mobile.webm" src="img\88rising\Mobile_100.webp" autoplay loop playsinline muted aria-label="Mobile Redesigned Verion"></video>
+                    <img alt="After Effects puppet tool"class="lazy js-off" src="img\88rising\Mobile_100.webp"
+                    data-src="img\88rising\Mobile_400.webp"
+                    data-srcset="img\88rising\Mobile_400.webp 400w,
+                                img\88rising\Mobile_800.webp 600w,
+                                img\88rising\Mobile_1080.webp 1080w"
+                    data-sizes="100w">
+
+                    <noscript>
+                        <video src="img\88rising\mobile.webm" autoplay loop playsinline muted aria-label="Mobile Redesigned Verion"></video> 
+                        <img src="img\88rising\Mobile_100.webp" alt="Mobile Redesigned Verion"
+                        srcset="img\88rising\Mobile_400.webp 400w,
+                                img\88rising\Mobile_800.webp 600w,
+                                img\88rising\Mobile_1080.webp 1080w" 
+                        sizes="(min-width: 74rem) 50vw, 100vw"
+                        >
+                    </noscript>
+                    <figcaption class="caption-analysis">Mobile Redesigned Verion</figcaption>
+                </figure> 
+            </section>
+
             <section class="project-analysis">
                 <h3>Stakeholder Value</h3>
                 <div class="grid two-col-project-grid align-top">
                     <div class="project-quotes" id="left-project-quotes">
                         <p>88rising (business)</p>
-                        <h5>Fostering a loyal fan base through increasing song engagements and merch sales. Highlighting lesser known artists to deepen their talent pool all while further promoting Asian American media to mainstream global audiences.</h4>
+                        <h5><span>Creates a loyal fan base through increasing song engagements and merch sales</span>. Highlighting lesser known artists to deepen their talent pool all while further promoting Asian American media to mainstream global audiences.</h4>
                     </div>
                     <div class="project-quotes">
                         <p>Fans (Consumer)</p>
-                        <h5>Helps create a more diverse music & artists range through enhanced discoverability and deeper artists engagement. Fans gain an appreciation of the artist’s creativity, influences and personal experiences.</h4>
+                        <h5>Helps create a more diverse music & artists range through enhanced discoverability and deeper artists engagement. Fans gain <span>an appreciation of the artist’s creativity, influences and personal experiences.</span></h4>
                     </div>
                 </div>
             </section>
-
             <section class="project-analysis">
                 <div class="text-container">
                     <h2>Reflection</h2>

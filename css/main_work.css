@@ -101,7 +101,7 @@ img.nav-item {
 }
 
 .main-banner{
-    padding:  7rem;
+    padding:  4rem;
 }
 
 .main-banner h1{
@@ -115,7 +115,7 @@ img.nav-item {
     margin-bottom: 0rem;
 }
 
-#hero-video video{
+#hero-video video, .risinghero-video video{
     margin-top: 1rem;
     object-fit: cover;
 }
@@ -131,7 +131,7 @@ body {
   background-color: #F5F8FD;
 }
 
-.main-banner video, .random-imgs-video {
+.main-banner video, .random-imgs-video, .risinghero-video video {
     object-fit: cover;
     width: 100%;
     top: 0;
@@ -556,6 +556,14 @@ span{
         display: none;
     } 
 
+    #hero img{
+        display: block;
+    }
+
+    #hero{
+        margin:0;
+    }
+
     .project-quotes{
         margin-top: 3rem;
         margin-left: 0rem; 
@@ -686,6 +694,10 @@ span{
 
     .main-banner{
         padding: 2rem;
+    }
+
+    .risinghero-video{
+        padding: 1rem 0rem 0rem 0rem;
     }
 
     .text-box{
@@ -843,10 +855,9 @@ span{
     .text-box{
         max-width: 40rem;
     }
-    #hero-video video{
+    #hero-video video, .risinghero-video video{
         border-radius: .5rem;
     }
-
     footer{
         padding: 3rem 4rem;
     }
@@ -885,17 +896,17 @@ span{
     }
 
     #overview{
-        padding-top: 2rem !important;
+        padding-top: 5rem !important;
     }
 
     video{
         display: block;
     }
 
-    #hero-video video{
+    #hero-video video, .risinghero-video video{
         max-height: 23rem;
     }
-    .project-img img, .right-banner img{
+    .project-img img, .right-banner img, #hero img{
         display: none;
     }
 
@@ -943,6 +954,10 @@ span{
 
     .main-banner{
         padding: 4rem;
+    }
+
+    .risinghero-video{
+        padding: 4rem 0rem 4rem 2rem;
     }
 
     .project-description{
@@ -1008,9 +1023,13 @@ span{
     }
 
     #graph88r{
-        margin-top: -5rem;
+        margin-top: -10rem;
     }
 
+    #graph88t{
+        padding-top: 5rem;
+    }
+    
     .project-quotes{
         margin-top: 0rem;
         margin-left: 1rem; 
@@ -1046,7 +1065,7 @@ span{
 
     .right-align-container{
         left: 55%;
-        max-width: 35rem;
+        max-width: 39rem;
     }
 
     .footer-msg{
@@ -1061,7 +1080,7 @@ span{
         font-size: .75rem;
     }
 
-    #hero-video video{
+    #hero-video video, .risinghero-video video{
         max-height: fit-content;
     }
 
